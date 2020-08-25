@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bc1d548f96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="toad.css">
+    <title>ToDo's</title>
+</head>
+<body>
+
+    <div class="container">
+
+     <header class="text-center text-light my-4">
+       <h1 class="mb">T0D0 LIST</h1>
+       <form class="search">
+           <input class="form-control margin-auto" type="text" name="search" placeholder="Search Todo's" />
+       </form>
+       
+      </header>
+
+      <ul class="list-group todos mx-auto text-light">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>Play Witcher</span>
+              <i class="fas fa-trash-alt delete"></i>            
+            </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Swimming time</span>
+            <i class="fas fa-trash-alt delete"></i>   
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>Party at Royal palace</span>
+            <i class="fas fa-trash-alt delete"></i>   
+          </li>
+
+
+      </ul>
+
+      <form class="add text-center my-4">
+          <label class="text-light">Add new T0D0...</label>
+          <input class="form-control m-auto" type="text" name="add" />
+      </form>
+
+    </div>
+    
+
+    <script src="do.js"></script>
+</body>
+</html>
